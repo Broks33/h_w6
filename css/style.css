@@ -1,0 +1,165 @@
+.wrapper{
+    margin: 0 auto;
+    border: 1px solid rgba(82, 255, 47, 0.795);
+    width: 900px;
+}
+
+.header{
+    background-color: rgba(82, 255, 47, 0.795);
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header span{
+    font-size: 19px;
+    padding: 9px 50px 9px 8px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.actions{
+    background-color: rgba(82, 255, 47, 0.795);
+    border: rgba(82, 255, 47, 0.795);
+    padding: 11px 0 10px 0;
+    font-size: 12px;
+}
+
+.main{
+    display: flex;
+    justify-content: start;
+}
+
+.main span{
+    font-size: 15px;
+}
+
+.left{
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+.input-name{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0 10px;
+    font-weight: bold;
+
+}
+
+.input-name input, .input-name textarea{
+    width: 200px;
+}
+
+.input-name textarea{
+    height: 90px;
+}
+
+.star span{
+    color: red;
+}
+
+.short-input input{
+    width: 100px;
+    margin: 0 100px 0 0;
+}
+
+#textarea{
+    resize: none;
+}
+
+.state{
+    width: 205px;
+}
+
+.gmr{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.url{
+    font-size: 12px;
+}
+
+.sub-block{
+    align-content: flex-start;
+}
+
+.sub-block input{
+    width: 150px;
+}
+
+.urls{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.right{
+    width: 410px;
+    margin-left: 65px;
+}
+
+.input-right{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0 10px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.eeeee{
+    width: 220px;
+}
+
+.rad{
+    display: flex;
+    margin-right: 85px;
+}
+
+.box{
+    display: flex;
+    margin-right: 104px;
+}
+
+.times{
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.checkboxes{
+    margin-bottom: 3px;
+}  
+
+.input-right textarea{
+    height: 80px;
+    width: 155px;
+}
+
+.footer{
+    background-color: rgba(190, 190, 190, 0.87);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttom{
+    padding: 5px 0;
+}
+
+.namess{
+    font-size: 15px;
+    padding: 3px 18px;
+    font-weight: bold;
+    color: white;
+    background: green;
+    border: 1px solid green;
+}

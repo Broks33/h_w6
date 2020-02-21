@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>H_w6</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="form">
+        <div class="wrapper">
+            <div class="header">
+                <span>Contact Manager</span>
+                    <select class="actions">
+                        <option value="Action 3" selected>More Actions</option>
+                        <option value="Action 1">Action 1</option>
+                        <option value="Action 2">Action 2</option>
+                        <option value="Action 2">Action 3</option>
+                    </select>
+            </div>
+            <div class="main">
+                <div class="left">
+                    <form>
+                        <div class="input-name star">
+                            <label for="input-name">First name<span>*</span></label>
+                            <input type="text" name="first_name"/>
+                        </div>
+                        <br />
+                        <div class="input-name star">
+                            <label for="input-name">Last name<span>*</span></label>
+                            <input id="names" type="text" name="last_name" />
+                        </div>
+                        <br />
+                        <div class="input-name">
+                            <span>Address</span>
+                            <br />
+                            <textarea name="Address" id="textarea" ></textarea>
+                        </div>
+                        <br />
+                        <div class="input-name">
+                            <span>City</span>
+                            <input  type="text" name="City"/>
+                        </div>
+                        <br />
+                        <div class="input-name">
+                            <span>State</span>
+                            <select class="state">
+                                <option value="Kiev">Kiev</option>
+                                <option value="Dnipro">Dnipro</option>
+                                <option value="Kryvyi Rih">Kryvyi Rih</option>
+                                <option value="Zaporizhzhia">Zaporizhzhia</option>
+                            </select>   
+                        </div>
+                        <br />
+                        <div class="input-name">
+                            <span>Zip</span>
+                            <input type="text" name="zip"/>
+                        </div>
+                        <br />
+                        <div class="input-name">
+                            <span>Home Phone</span>
+                            <div class="short-input">
+                                <input type="text" name="home-phone"/>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="input-name star">
+                            <label for="input-name">Work Phone<span>*</span></label>
+                            <input type="text" name="work-phone"/>
+                        </div>
+                        <br />
+                        <div class="input-name">
+                            <span>Fax number</span>
+                            <div class="short-input">
+                                <input type="text" name="fax"/>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="input-name">
+                            <span>Website
+                            </span>
+                            <div class="sub-block">
+                                <div class="urls">
+                                    <span>URL</span>
+                                    <input type="text" name="login"/>
+                                </div>  
+                                <div class="urls">
+                                    <span>Link Name</span>
+                                    <input type="text" name="login"/>
+                                </div>  
+                            </div>
+                        </div>
+                        <br />
+                        <div class="input-name star">
+                            <label for="input-name">Email Address<span>*</span></label>
+                            <input type="text" name="work-phone"/>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="right">
+                    <form>
+                        <div class="input-right">
+                            <span class="eeeee">When is the best time to contact you?</span>
+                            <div class="rad">
+                                <div class="times">
+                                    <input class="checkboxes" type="radio" name="time" value="morning"/>
+                                    <input class="checkboxes" type="radio" name="time" value="afternoon"/>
+                                    <input class="checkboxes" type="radio" name="time" value="evening"/>
+                                </div>
+                                <div class="times">
+                                    <span>Morning</span>
+                                    <span>Afternoon</span>
+                                    <span>Evening</span>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="input-right">
+                            <span class="eeeee">What is the best way to contact you?</span>
+                            <div class="box">
+                                <div class="times">
+                                    <input class="checkboxes" type="checkbox" name="way" value="phone"/>
+                                    <input class="checkboxes" type="checkbox" name="way" value="email"/>
+                                    <input class="checkboxes" type="checkbox" name="way" value="fax"/>
+                                </div>
+                                <div class="times">
+                                    <span>Phone</span>
+                                    <span>Email</span>
+                                    <span>Fax</span>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="input-right">
+                            <span>Message</span>
+                            <br />
+                            <textarea name="Address" id="textarea" ></textarea>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="buttom">
+                    <input class="namess" type="submit" name="submit" value="Submit"/>
+                    <input class="namess" type="reset" name="reset" value="Reset"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
